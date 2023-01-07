@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+    <record id="action_child_menu_1_module4" model="ir.actions.act_window">
+      <field name="name">question.view(Action)</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">module4.question.info</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_child_menu_2_module4" model="ir.actions.act_window">
+      <field name="name">student.view(Action)</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">module4.student.info</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+  </data>
+</odoo>
